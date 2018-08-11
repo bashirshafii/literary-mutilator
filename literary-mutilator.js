@@ -1,5 +1,13 @@
-function findAndReplace() {
-	var oldword = document.getElementById("firstparagraph").innerHTML;
-	var  newword = str.replace(Fluctuations, "Changes");
-	document.getElementById("firstparagraph").innerHTML = newword;
+var paragraph = document.getElementById("firstsection");
+
+document.write(paragraph);
+
+for(var i = 0; i < paragraph.length; i++) {
+	if (paragraph.slice(i, i + 5) === "energy") {
+
+		alert("found it");
+	}
+
 }
+
+
