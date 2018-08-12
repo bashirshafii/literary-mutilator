@@ -1,13 +1,16 @@
-var paragraph = document.getElementById("firstsection");
+let paragraph = document.getElementById("firstparagraph").textContent;
 
-document.write(paragraph);
+for(let paragraph = 0; i < paragraph.length; i++) {
+	if (paragraph.slice(i, i + 6) === "energy") {
 
-for(var i = 0; i < paragraph.length; i++) {
-	if (paragraph.slice(i, i + 5) === "energy") {
-
-		alert("found it");
+		alert("I found the right word!");
 	}
 
+
+
 }
+
+
+
 
 
