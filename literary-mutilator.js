@@ -9,7 +9,7 @@ function replaceWords() {
 
 //highlight words function
 function highlight(text) {
-	var inputText = document.getElementById("inputText");
+	var inputText = document.getElementById("01");
 	var innerHTML = inputText.innerHTML;
 	var index = innerHTML.indexOf(text);
 	if (index >= 0) {
