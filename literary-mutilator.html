@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>literary-mutilator</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="literary-mutilator.css">
 
 	</head>
-	<body>
+	<body class="container-fluid">
 		<section id="sectiontext">
 		<p>
 			Run a manual sweep of anomalous airborne or electromagnetic readings. Radiation levels in our atmosphere have increased by 3,000 percent. Electromagnetic and subspace wave fronts approaching synchronization. What is the strength of the ship's deflector shields at maximum output? The wormhole's size and short period would make this a local phenomenon. Do you have sufficient data to compile a holographic simulation?
@@ -21,8 +22,8 @@
 		</p>
 
 		</section>
-		<button onclick="replaceWords()">Replace Words</button>
-		<button onclick="highlight('electromagnetic')">Highlight</button>
+		<button class="btn btn-primary"onclick="replaceWords()">Replace Words</button> <br> <br>
+		<button class="btn btn-success" onclick="highlight('electromagnetic')">Highlight</button>
 
 
 		<script src="literary-mutilator.js"></script>

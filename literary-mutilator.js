@@ -2,14 +2,14 @@
 //replace words function
 
 function replaceWords() {
-	var oldText = document.getElementById("01").innerHTML;
+	var oldText = document.getElementById("sectiontext").innerHTML;
 	var newText = oldText.replace(/frequency/gi, "incidence");
-	document.getElementById("01").innerHTML = newText;
+	document.getElementById("sectiontext").innerHTML = newText;
 }
 
 //highlight words function
 function highlight(text) {
-	var inputText = document.getElementById("01");
+	var inputText = document.getElementById("sectiontext");
 	var innerHTML = inputText.innerHTML;
 	var index = innerHTML.indexOf(text);
 	if (index >= 0) {
